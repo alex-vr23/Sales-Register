@@ -1,0 +1,10 @@
+CREATE DATABASE clicktechdata; 
+
+USE clicktechdata; 
+
+CREATE TABLE tabla (
+    Fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CODE VARCHAR(40),
+    NAME VARCHAR (40),
+    PRIMARY KEY (CODE)
+);

@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: px;
+    
+    display: flex;
+    justify-content: center;
+    background-image: url("images/J4o.gif");
+    background-repeat:round;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .contenido {
+    background-color: rgba(151, 151, 151, 0.437);
+    margin: 40px;
+    
+  }
+  
+  h1, h2 {
+    color: #ffffff; 
+    text-align: center;
+  }
+
+  .titulo {
+    text-align: center;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  /* Formularios */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  input[type="submit"] {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Resultados de búsqueda */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Separador */
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
